@@ -1,0 +1,14 @@
+.coming-container{
+    max-width: 968px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.coming-container .box-img img:hover{
+    transform: translateY(0);
+}
+
+
