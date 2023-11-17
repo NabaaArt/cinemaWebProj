@@ -20,8 +20,7 @@ const App = () => {
   const getMoviesRequest = async () => {
     setLoading(true);
     try {
-      const url = "http://www.omdbapi.com/?i=tt3896198&apikey=98c0a753";
-
+      const url = 'https://my-json-server.typicode.com/horizon-code-academy/fake-movies-api/movies';
       const response = await fetch(url);
       const responseJson = await response.json();
       console.log(responseJson);
